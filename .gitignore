@@ -1,0 +1,7 @@
+# 构建目录与构建产物
+build-win/
+build*/
+*.exe
+*.o
+*.bak*
+*.swp
