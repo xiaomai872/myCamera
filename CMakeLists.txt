@@ -13,3 +13,5 @@ add_executable(camera_app io/example.cpp myCamera.cpp)
 
 target_link_libraries(camera_app PRIVATE ${OpenCV_LIBS})
 
+add_subdirectory(color)
+
