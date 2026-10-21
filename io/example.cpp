@@ -4,7 +4,7 @@
 #include "../myCamera.hpp"
 int main() {
 #if defined(__linux__)
-if (getenv("DISPLAY")) setenv("GDK_BACKEND", "x11", 1); // Linux only: 让 GTK 窗口显示在 VMware 桌面
+if (getenv("DISPLAY")) setenv("GDK_BACKEND", "x11", 1);
 #endif
 myCamera camera;
 cv::Mat frame;
